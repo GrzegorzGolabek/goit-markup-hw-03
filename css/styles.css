@@ -1,7 +1,189 @@
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 }
-.link {
+.list {
+  list-style: none;
+}
+
+.email-h:hover,
+.email-h:focus,
+.email-f:hover,
+.email-f:focus,
+.phone-h:hover,
+.phone-h:focus,
+.phone-f:hover,
+.phone-f:focus,
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+/*header */
+
+.logo-1h {
+  font-family: "raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
   text-decoration: none;
+}
+.logo-2h {
+  color: #2196f3;
+}
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  color: #212121;
+  text-decoration: none;
+}
+.header {
+  background-color: #ffffff;
+}
+.email-h {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  color: #757575;
+  text-decoration: none;
+}
+.phone-h {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  color: #757575;
+  text-decoration: none;
+}
+/*first section */
+
+.first-section {
+  background-color: #2f303a;
+}
+.first-section-1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: #ffffff;
+  text-align: center;
+}
+.first-section-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #ffffff;
+  background-color: #2196f3;
+  text-align: center;
+}
+/*secend section */
+
+.secend-section {
+  background-color: white;
+}
+.secend-section-1 h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  color: #212121;
+}
+.secend-section-2 pre {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+.secend-section-3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: #212121;
+  text-align: center;
+}
+
+/*third section  */
+
+.third-section {
+  background-color: #f5f4fa;
+}
+.third-section-1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: #212121;
+  text-align: center;
+}
+.third-section-2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  color: #212121;
+}
+.third-section-3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.17;
+  color: #757575;
+}
+
+/*footer */
+
+.logo-1f {
+  font-family: "raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #ffffff;
+  text-decoration: none;
+}
+.logo-2f {
+  color: #2196f3;
+}
+.fotter {
+  background-color: #2f303a;
+}
+.email-f {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+  text-decoration: none;
+}
+.phone-f {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+  text-decoration: none;
+}
+.fotter-adress {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*portfolio */
+
+.portfolio-list-button {
+  font-size: 16px;
+  line-height: 1.625;
+  font-weight: 500;
+  text-align: center;
+}
+.portfolio-list-button:hover,
+.portfolio-list-button:focus {
+  background: #2196f3;
+  color: white;
+}
+.portfolio-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  color: #212121;
+}
+.portfolio-card p {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.875;
 }
