@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Raleway" sans-serif;
   color: black;
   background: #ffffff;
 }
@@ -73,7 +73,10 @@ body {
   font-size: 16px;
   line-height: 1.87;
   color: #ffffff;
-  background-color: #2196f3;
+  display: flex;
+  letter-spacing: 0.06em
+  background-color: #2196F3;
+  align-items: center
   text-align: center;
   cursor: pointer;
 }
@@ -82,19 +85,18 @@ body {
 .secend-section {
   background-color: white;
 }
-.secend-section-1 h3 {
+.second-section-1 h3 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
   color: #212121;
 }
-.secend-section-2 pre {
-  font-weight: 400;
+.second-section-2 {
   font-size: 14px;
   line-height: 1.71;
   color: #757575;
 }
-.secend-section-3 {
+.second-section-3 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -104,24 +106,37 @@ body {
 
 /*third section  */
 
-.third-section {
-  background-color: #f5f4fa;
+.third-section{
+  background-color: #F5F4FA
 }
-.third-section-1 {
+
+.third-section-3 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   color: #212121;
   text-align: center;
 }
-.third-section-2 {
+
+
+/*fourth section  */
+.fourth-section {
+  background-color: #f5f4fa;
+}
+.fourth-section-1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: #212121;
+  text-align: center;
+}
+.fourth-section-2 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
   color: #212121;
 }
-.third-section-3 {
-  font-weight: 400;
+.fourth-section-3 {
   font-size: 16px;
   line-height: 1.17;
   color: #757575;
@@ -144,21 +159,18 @@ body {
   background-color: #2f303a;
 }
 .email-f {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff;
   text-decoration: none;
 }
 .phone-f {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff;
   text-decoration: none;
 }
 .fotter-adress {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
@@ -169,9 +181,12 @@ body {
 /*portfolio */
 
 .portfolio-list-button {
+  border: none;
   font-size: 16px;
   line-height: 1.625;
   font-weight: 500;
+  letter: spacing 0.03em;
+  background-color: #f5f4fa;
   text-align: center;
   cursor: pointer;
 }
@@ -179,6 +194,7 @@ body {
 .portfolio-list-button:focus {
   background: #2196f3;
   color: white;
+  cursor: pointer;
 }
 .portfolio-card h3 {
   font-size: 18px;
@@ -190,4 +206,9 @@ body {
   color: #757575;
   font-size: 16px;
   line-height: 1.875;
+}
+.portfolio-card{
+border-width: 1px;
+border-color: #eee;  
+border-style: solid;
 }
