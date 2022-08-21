@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", "Raleway" sans-serif;
   color: black;
   background: #ffffff;
+  width: 1600px;
 }
 h1, h2, h3, h4, h5, h6{
   margin: 0;
@@ -43,6 +44,7 @@ img{
 .header .container{
   display: flex;
   align-items: center;
+  height: 80px;
 }
 .navigator{
   display: flex;
@@ -76,7 +78,7 @@ img{
 }
 .header {
   background-color: #ffffff;
-}
+ }
 
 .email-h {
   font-weight: 500;
@@ -100,6 +102,8 @@ img{
 
 .first-section {
   background-color: #2f303a;
+  height: 600px;
+  width: 1600px;
 }
 .first-section-1 {
   font-weight: 900;
@@ -107,41 +111,63 @@ img{
   line-height: 1.36;
   color: #ffffff;
   text-align: center;
+  text-transform: uppercase;
+  margin: auto;
+  width: 696px;
+  padding-top: 200px;
+  padding-bottom: 30px;
 }
 .first-section-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  color: #ffffff;
+  color: #212121;
   display: flex;
   letter-spacing: 0.06em
-  background-color: #2196F3;
+  background-color: #f5f4fa;
   align-items: center
   text-align: center;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  display: block;
+  margin: auto;
+}
+.first-section-button :hover
+.first-section-button :focus{
+  background: #2196f3;
+  color: white;
   cursor: pointer;
 }
 /*secend section */
 
+.second-section .list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
 .secend-section {
   background-color: white;
+  width: 1600px;
 }
-.second-section-1 h3 {
+.second-section-1 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
   color: #212121;
+  letter-spacing: 0.03em;
+  margin: 0;
+  text-transform: uppercase;
 }
 .second-section-2 {
   font-size: 14px;
   line-height: 1.71;
   color: #757575;
-}
-.second-section-3 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  color: #212121;
-  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 /*third section  */
