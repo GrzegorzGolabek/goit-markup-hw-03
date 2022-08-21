@@ -3,8 +3,27 @@ body {
   color: black;
   background: #ffffff;
 }
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}
+ul, ol{
+  margin: 0;
+  padding: 0;
+}
+p{
+  padding: 0;
+}
+img{
+  display: block;
+}
 .list {
   list-style: none;
+}
+.container{
+  width: 1200px;
+  padding: 94px 0 94px 0;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .email-h:hover,
@@ -21,6 +40,13 @@ body {
 }
 /*header */
 
+.header .container{
+  display: flex;
+  align-items: center;
+}
+.navigator{
+  display: flex;
+}
 .logo-1h {
   font-family: "raleway", sans-serif;
   font-weight: 700;
@@ -28,6 +54,9 @@ body {
   line-height: 1.19;
   color: #000000;
   text-decoration: none;
+  margin-right: 93px;
+  margin-left: 215px;
+  padding-top: 24px;
 }
 .logo-2h {
   color: #2196f3;
@@ -38,16 +67,25 @@ body {
   line-height: 1.17;
   color: #212121;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+
+}
+.link:not(:last-child){
+  margin-right: 46px;
 }
 .header {
   background-color: #ffffff;
 }
+
 .email-h {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
   color: #757575;
   text-decoration: none;
+  margin-left: auto;
+
 }
 .phone-h {
   font-weight: 500;
@@ -55,6 +93,8 @@ body {
   line-height: 1.17;
   color: #757575;
   text-decoration: none;
+  margin-left: 50px;
+ 
 }
 /*first section */
 
