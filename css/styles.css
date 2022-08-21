@@ -1,26 +1,32 @@
 body {
-  font-family: "Roboto", "Raleway" sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
   color: black;
   background: #ffffff;
   width: 1600px;
 }
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
-ul, ol{
+ul,
+ol {
   margin: 0;
   padding: 0;
 }
-p{
+p {
   padding: 0;
 }
-img{
+img {
   display: block;
 }
 .list {
   list-style: none;
 }
-.container{
+.container {
   width: 1200px;
   padding: 94px 0 94px 0;
   align-items: center;
@@ -41,12 +47,12 @@ img{
 }
 /*header */
 
-.header .container{
+.header .container {
   display: flex;
   align-items: center;
   height: 80px;
 }
-.navigator{
+.navigator {
   display: flex;
 }
 .logo-1h {
@@ -71,14 +77,13 @@ img{
   text-decoration: none;
   display: flex;
   align-items: center;
-
 }
-.link:not(:last-child){
+.link:not(:last-child) {
   margin-right: 46px;
 }
 .header {
   background-color: #ffffff;
- }
+}
 
 .email-h {
   font-weight: 500;
@@ -87,7 +92,6 @@ img{
   color: #757575;
   text-decoration: none;
   margin-left: auto;
-
 }
 .phone-h {
   font-weight: 500;
@@ -96,7 +100,6 @@ img{
   color: #757575;
   text-decoration: none;
   margin-left: 50px;
- 
 }
 /*first section */
 
@@ -123,9 +126,9 @@ img{
   line-height: 1.87;
   color: #212121;
   display: flex;
-  letter-spacing: 0.06em
+  letter-spacing: 0.06em;
   background-color: #f5f4fa;
-  align-items: center
+  align-items: center;
   text-align: center;
   border: none;
   cursor: pointer;
@@ -135,8 +138,7 @@ img{
   display: block;
   margin: auto;
 }
-.first-section-button :hover
-.first-section-button :focus{
+.first-section-button :hover .first-section-button :focus {
   background: #2196f3;
   color: white;
   cursor: pointer;
@@ -147,7 +149,7 @@ img{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  }
+}
 .secend-section {
   background-color: white;
   width: 1600px;
@@ -172,8 +174,8 @@ img{
 
 /*third section  */
 
-.third-section{
-  background-color: #F5F4FA
+.third-section {
+  background-color: #f5f4fa;
 }
 
 .third-section-3 {
@@ -183,7 +185,6 @@ img{
   color: #212121;
   text-align: center;
 }
-
 
 /*fourth section  */
 .fourth-section {
@@ -251,7 +252,7 @@ img{
   font-size: 16px;
   line-height: 1.625;
   font-weight: 500;
-  letter: spacing 0.03em;
+  letter-spacing: 0.03em;
   background-color: #f5f4fa;
   text-align: center;
   cursor: pointer;
@@ -273,8 +274,8 @@ img{
   font-size: 16px;
   line-height: 1.875;
 }
-.portfolio-card{
-border-width: 1px;
-border-color: #eee;  
-border-style: solid;
+.portfolio-card {
+  border-width: 1px;
+  border-color: #eee;
+  border-style: solid;
 }
